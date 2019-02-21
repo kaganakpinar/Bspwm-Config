@@ -4,8 +4,6 @@
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/kagan/.oh-my-zsh"
-  export TERM=xterm-256color
-  export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
