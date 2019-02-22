@@ -12,9 +12,6 @@ super + d
 super + @space
     rofi -show run
 
-super + l
-    i3lock-fancy -t ""
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
