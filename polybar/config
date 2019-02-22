@@ -11,7 +11,7 @@
 ;==========================================================
 
 [colors]
-background = #002B36
+background = #cc002B36
 background-alt = #073642
 foreground = #93A1A1 
 foreground-alt = #555
@@ -52,6 +52,8 @@ modules-left = bspwm spotify
 modules-center =
 modules-right = pulseaudio updates-arch date battery wifi bluetooth screenshot lock reboot shutdown
 
+tray-position = right
+
 override-redirect = false
 wm-restack = bspwm
 
@@ -74,7 +76,7 @@ label-monitor = %name%
 
 
 label-focused = %icon%
-label-focused-background = ${colors.primary}
+label-focused-underline= ${colors.wm_under}
 label-focused-padding = 2
 
 label-occupied = %icon%
@@ -197,3 +199,10 @@ type=custom/text
 content=""
 click-left = shutdown now
 
+[settings]
+screenchange-reload = true
+pseudo-trancparency = false
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
